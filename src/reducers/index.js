@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
+import postsReducer from "./postsReducers";
 
 export default combineReducers({
-  replaceMe: () => "Hi there", //in order to get that error message(on console) to go away.
+  posts: postsReducer,
 });
